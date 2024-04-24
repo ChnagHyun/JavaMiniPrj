@@ -13,8 +13,8 @@ public class main {
             System.out.println("------------");
             System.out.println("1. 회원가입");
             System.out.println("2. 예매");
-            System.out.println("3. 취소");
-            System.out.println("4. 좌석 확인");
+            System.out.println("3. 예약 확인");
+            System.out.println("4. 취소");
             System.out.println("5. 종료");
             System.out.println("------------");
 
@@ -28,10 +28,10 @@ public class main {
                     reserve();
                     break;
                 case 3:
-                    cancel();
+                    confirm();
                     break;
                 case 4:
-                    confirm();
+                    cancel();
                     break;
                 case 5:
                     menu = false;
